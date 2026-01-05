@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="site">
+      <aside class="sidebar">
+        <img class="avatar" src="{{ '/assets/images/avatar.jpg' | relative_url }}" alt="Portrait">
+        <div class="name">Xiaomeng (Charlotte) Chen</div>
+        <div class="role">incoming Assistant Professor</div>
+        <div class="affil">School of Science and Engineering</div>
+        <div class="affil">The Chinese University of Hong Kong, Shenzhen</div>
+        <div class="links">
+          <div class="linkitem">
+            <span class="icon">{% include_relative ../assets/images/icon-loc.svg %}</span>
+            <span>Shenzhen, China</span>
+          </div>
+          <div class="linkitem">
+            <span class="icon">{% include_relative ../assets/images/icon-mail.svg %}</span>
+            <a href="mailto:xchendu@connect.ust.hk">xchendu@connect.ust.hk</a>
+          </div>
+          <div class="linkitem">
+            <span class="icon">{% include_relative ../assets/images/icon-scholar.svg %}</span>
+            <a href="https://scholar.google.com/citations?user=6odrwGgAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+          </div>
+          <!-- Optional: add GitHub link here -->
+        </div>
+        <small>Replace <code>assets/images/avatar.jpg</code> with your photo.</small>
+      </aside>
+
+      <main class="content">
+        <div class="topnav">
+          <div class="brand">Homepage</div>
+          <nav class="nav">
+            <a href="{{ '/' | relative_url }}" class="{% if page.nav == 'home' %}active{% endif %}">Homepage</a>
+            <a href="{{ '/publications.html' | relative_url }}" class="{% if page.nav == 'pub' %}active{% endif %}">Publications</a>
+            <a href="{{ '/talks.html' | relative_url }}" class="{% if page.nav == 'talks' %}active{% endif %}">Talks</a>
+            <a href="{{ '/service.html' | relative_url }}" class="{% if page.nav == 'service' %}active{% endif %}">Academic Service</a>
+            <a href="{{ '/awards.html' | relative_url }}" class="{% if page.nav == 'awards' %}active{% endif %}">Honors &amp; Awards</a>
+          </nav>
+        </div>
+        <div class="main">
+          {{ content }}
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

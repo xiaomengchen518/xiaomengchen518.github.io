@@ -1,0 +1,8 @@
+title: "Xiaomeng (Charlotte) Chen"
+description: "Incoming Assistant Professor at CUHK-Shenzhen"
+url: ""
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins: []

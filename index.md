@@ -1,0 +1,22 @@
+---
+layout: default
+title: Home
+nav: home
+---
+
+# Xiaomeng (Charlotte) Chen’s Homepage
+
+Welcome! I am an **incoming Assistant Professor** in the **School of Science and Engineering**
+at **The Chinese University of Hong Kong, Shenzhen**.
+
+## Research Interests
+
+Distributed optimization, game-theoretic learning, multi-agent networks, privacy-preserving algorithms, and communication-efficient distributed systems.
+
+See [here]({{ '/publications.html' | relative_url }}) for our publications.
+
+## Openings
+
+We are always looking for highly motivated students with a solid mathematical background and research interests in optimization, machine learning, distributed algorithms, and game theory.
+
+Prospective students are welcome to contact me via email with a brief CV.

@@ -1,0 +1,136 @@
+:root{
+  --text:#222;
+  --muted:#666;
+  --link:#2b8bbd;
+  --bg:#fff;
+  --border:#e6e6e6;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";
+  color:var(--text);
+  background:var(--bg);
+  line-height:1.55;
+}
+
+a{color:var(--link); text-decoration:none}
+a:hover{text-decoration:underline}
+
+.site{
+  display:flex;
+  min-height:100vh;
+}
+
+.sidebar{
+  width:320px;
+  padding:28px 22px;
+  border-right:1px solid var(--border);
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow:auto;
+}
+
+.avatar{
+  width:220px;
+  height:220px;
+  border-radius:999px;
+  object-fit:cover;
+  display:block;
+  margin:0 auto 18px auto;
+  border:6px solid #f4f4f4;
+}
+
+.name{
+  font-size:28px;
+  font-weight:700;
+  margin:6px 0 10px 0;
+}
+
+.role, .affil{
+  font-size:16px;
+  color:var(--muted);
+  margin:2px 0;
+}
+
+.sidebar .links{
+  margin-top:18px;
+  padding-top:14px;
+  border-top:1px solid var(--border);
+}
+
+.linkitem{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:10px 0;
+  color:var(--muted);
+}
+
+.icon{
+  width:18px;
+  height:18px;
+  display:inline-block;
+}
+
+.content{
+  flex:1;
+  padding:0;
+}
+
+.topnav{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  padding:18px 26px;
+  border-bottom:1px solid var(--border);
+  position:sticky;
+  top:0;
+  background:rgba(255,255,255,0.95);
+  backdrop-filter:saturate(140%) blur(6px);
+}
+
+.brand{
+  font-weight:700;
+  margin-right:auto;
+  color:var(--text);
+}
+
+.nav a{
+  color:var(--muted);
+  font-weight:600;
+  margin-left:14px;
+}
+
+.nav a.active{
+  color:var(--text);
+}
+
+.main{
+  padding:28px 26px 60px 26px;
+  max-width:980px;
+}
+
+h1,h2,h3{line-height:1.2}
+h2{
+  margin-top:36px;
+  padding-bottom:10px;
+  border-bottom:1px solid var(--border);
+}
+hr{border:none; border-top:1px solid var(--border); margin:22px 0}
+
+small{color:var(--muted)}
+
+@media (max-width: 980px){
+  .site{flex-direction:column}
+  .sidebar{
+    width:100%;
+    height:auto;
+    position:relative;
+    border-right:none;
+    border-bottom:1px solid var(--border);
+  }
+  .avatar{width:160px;height:160px}
+}
