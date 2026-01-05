@@ -10,6 +10,4 @@ nav: awards
 - Senior Teaching Assistant Fellowship, 2022
 - HKUST Excellent Research Award, 2020
 - National Scholarship, 2015–2016
-- People Scholarship, 2016–2017
-- The 14th Research Institute Glarun Scholarship, 2017–2018
-- Meritorious Winner, Mathematical Contest in Modeling, 2018
+
