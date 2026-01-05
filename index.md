@@ -4,7 +4,7 @@ title: Home
 nav: home
 ---
 
-# Xiaomeng (Charlotte) Chen’s Homepage
+# Xiaomeng Chen’s Homepage
 
 Welcome! I am an **incoming Assistant Professor** in the **School of Science and Engineering**
 at **The Chinese University of Hong Kong, Shenzhen**.
@@ -17,6 +17,8 @@ See [here]({{ '/publications.html' | relative_url }}) for our publications.
 
 ## Openings
 
-We are always looking for highly motivated students with a solid mathematical background and research interests in optimization, machine learning, distributed algorithms, and game theory.
+We are always looking for highly motivated students, postdoctoral researchers, and research assistants with a strong mathematical background and research interests in optimization, machine learning, distributed algorithms, and game theory.
 
-Prospective students are welcome to contact me via email with a brief CV.
+Interested candidates are welcome to contact me via email with a brief CV.
+
+
