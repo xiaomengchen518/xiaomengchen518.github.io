@@ -11,7 +11,7 @@ at **The Chinese University of Hong Kong, Shenzhen**.
 
 ## Research Interests
 
-Distributed optimization, game theory, multi-agent systems, privacy-preserving and attack- resilient algorithms, and communication-efficient distributed systems.
+Distributed optimization, game theory, multi-agent systems, privacy-preserving and attack-resilient algorithms, and communication-efficient distributed systems.
 
 See [here]({{ '/publications.html' | relative_url }}) for our publications.
 
