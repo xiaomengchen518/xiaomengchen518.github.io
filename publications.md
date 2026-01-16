@@ -36,7 +36,7 @@ nav: pub
 
 - J. Zhang, W. Huo, **X. Chen** (corresponding author), D. Quevedo, and L. Shi, *Remote State Estimation with Discounted Multi-Armed Bandits for Non-Stationary Channel Selection*, **IEEE Control Systems Letters**, 2025.
 
-### Mixed Integer Programming and Optimization Acceleration
+### Mixed Integer Programming 
 
 - M. Y. Huang, L. Y. Huang, Y. X. Zhong, H. W. Yang, **X. M. Chen** (co-first), W. Huo, J. Z. Wang, F. Zhang, B. Bai, and L. Shi, *MILP Acceleration: A Survey from Perspectives of Simplex Initialization and Learning-Based Branch and Bound*, **Journal of the Operations Research Society of China**, 2025.
 
@@ -47,3 +47,5 @@ nav: pub
 - **X. Chen**, W. Jiang, T. Charalambous, and L. Shi, *A Privacy-Preserving Finite-Time Push-Sum based Gradient Method for Distributed Optimization over Digraphs*, IEEE CDC 2023.
 
 - L. Huang, **X. Chen** (co-first), W. Huo, J. Wang, F. Zhang, B. Bai, and L. Shi, *Improving Primal Heuristics for Mixed Integer Programming Problems based on Problem Reduction: A Learning-based Approach*, ICARCV 2022.
+
+- X. Yang, Y. Ni,  **X. Chen**, S. Chen, F. Liu, *Optimal denial-of-service attack scheduling for remote state estimation via sequential observations*, CCC, 2024.
